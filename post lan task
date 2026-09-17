@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main() {
+    float percentage;
+    int F_income;
+    printf("Enter your marks Percentage:");
+    scanf("%f",&percentage);
+    printf("Enter your Family income:");
+    scanf("%d",&F_income);
+    if(percentage>=80||F_income<50000) {
+        printf("Univesity offer you a SCHOARSHIP");
+    }else {
+        printf("University doesnot offeer you A SCHOARSHIP");
+    }
+    return 0;
+}
